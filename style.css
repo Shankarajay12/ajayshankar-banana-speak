@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+:root{
+    font-family: 'Kalam', cursive;
+    --primary-color:#facc15;
+  
+}
+body {
+    display: block;
+    margin: 0px;
+}
+
+.header{
+    background-color:var(--primary-color);
+    margin: 0rem;
+    padding: 0rem 1.5rem;
+    text-align: center;
+    font-weight: bold;   
+}
+.header #brand-Img{
+    height: 8vh;
+    width: 10vh;
+}
+
+.container{
+margin: auto;
+padding: 1vh 5vh;
+max-width: 600px;
+    
+}
+
+#txt-input{
+    display: block;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: kalam,cursive;
+    font-size:15px;
+    border: 1px solid black;
+}
+
+#btn-translate{
+    margin: 1rem;
+    width: 35%;
+    height: 10vh;
+    font-family: kalam,cursive;
+    font-size: 10px;
+    background-color: var(--primary-color);
+    border: 0px;
+}
+
+#output{
+    border: 1px solid black;
+    width: 80%;
+    margin: 1rem;
+    height: 10vh;
+    padding: 1rem;
+    font-family: kalam,cursive;
+    font-size:15px;
+}
+
+#output-heading{
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+#heading{
+  
+}
+
+.footer{
+    position:fixed;
+    margin: auto;
+    padding: 0rem 5rem;
+    bottom:0px;
+    background-color: var(--primary-color);
+}
+
+.footer #footer-heading{
+    text-align: center;
+}
+.footer #footer-text{
+  margin: 0rem;
+  padding: 0rem;
+  text-align: center;
+
+}
