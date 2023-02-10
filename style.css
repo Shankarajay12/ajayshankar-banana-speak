@@ -82,10 +82,9 @@ max-width: 600px;
 
 
 .footer #footer-text{
-  margin: 0rem 1rem;
-  padding: 0rem;
+  margin: auto;
+  padding:auto;
   text-align: center;
   font-size: small;
- 
-
+  font-weight: 800;
 }
